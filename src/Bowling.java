@@ -19,8 +19,7 @@ class EventHandlerNewStatus implements EventHandler<ActionEvent>
     }
 
     @Override
-    public void handle(ActionEvent actionEvent)
-    {
+    public void handle(ActionEvent actionEvent) {
         new Status(this.bowling);
     }
 }
